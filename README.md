@@ -98,6 +98,6 @@ DC3 平台是基于`Spring Cloud`架构开发的,是一系列松耦合、开源�
 > 已完成的协议驱动：rtmp、plcs7、socket（client模式、server模式）、opcda \
 > 计划开发协议驱动: mqtt、opcua、modbus-tcp
 
-- 并发能力如何？
+- 并发能力如何？ 已测试
 
 > 16G,i5机器可目前测试可承受5万并发（测试工具jMeter），目前Mongo数据库当并发很大时有较大的延时，后期采用Cassandra替代Mongo。
