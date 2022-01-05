@@ -1,6 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.github.pnoker.common.config.RestTemplateConfig,\
-  com.github.pnoker.common.config.MybatisPlusConfig,\
-  com.github.pnoker.common.config.RedisTemplateConfig,\
-  com.github.pnoker.common.config.RedisCacheConfig,\
-  com.github.pnoker.common.utils.RedisUtil
